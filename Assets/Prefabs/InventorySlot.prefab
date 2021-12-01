@@ -169,11 +169,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 539595041}
         m_MethodName: ReforgeItem
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 54fbdca0de7f80148a7fba0f3000c40f,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: Item, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -559,3 +558,19 @@ MonoBehaviour:
   reforgeButton: {fileID: 6919086468863805626}
   cancelReforge: {fileID: 0}
   name: {fileID: 0}
+  damageRange: {fileID: 0}
+  primary1: {fileID: 0}
+  primary2: {fileID: 0}
+  primary3: {fileID: 0}
+  primary4: {fileID: 0}
+  secondary1: {fileID: 0}
+  secondary2: {fileID: 0}
+  reforgeBlock: {fileID: 0}
+  reforgeName: {fileID: 0}
+  reforgeDamageRange: {fileID: 0}
+  reforgePrimary1: {fileID: 0}
+  reforgePrimary2: {fileID: 0}
+  reforgePrimary3: {fileID: 0}
+  reforgePrimary4: {fileID: 0}
+  reforgeSecondary1: {fileID: 0}
+  reforgeSecondary2: {fileID: 0}
