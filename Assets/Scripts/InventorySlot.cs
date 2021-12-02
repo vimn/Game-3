@@ -231,25 +231,18 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
 		//damage range
 		DamageRange();
-
 		//primary stat 1
 		PrimaryStat1();
-
 		//primary stat 2
 		PrimaryStat2();
-
 		//primary stat 3
 		PrimaryStat3();
-
 		//primary stat 4
 		PrimaryStat4();
-
 		//secondary stat 1
 		SecondaryStat1();
-
 		//secondary stat 2
 		SecondaryStat2();
-
 		icon.sprite = item.icon;
 		icon.enabled = true;
 		removeButton.interactable = true;
@@ -585,7 +578,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	{
 		if (item != null)
 		{
-			item.Use();
+
 		}
 	}
 

@@ -11,11 +11,7 @@ public class Equipment : Item {
 	public SkinnedMeshRenderer prefab;
 
 	// Called when pressed in the inventory
-	public override void Use ()
-	{
-		EquipmentManager.instance.Equip(this);	// Equip
-		RemoveFromInventory();	// Remove from inventory
-	}
+
 
 }
 
