@@ -17,7 +17,7 @@ public class ItemPickup : Interactable {
 	public Item item13;
 	public Item item14;
 	public Item item15;
-	
+	[SerializeField] AudioSource anvil;
 	int itemIndex = 0;
 
 	public void Awake()
@@ -96,10 +96,8 @@ public class ItemPickup : Interactable {
 		{
 			Inventory.instance.Add(item15);
 		}
-		Debug.Log(itemIndex + " index.");
-		Debug.Log("Picking up " + item1.name);
-		item1.primaryStat1 = Random.Range(450, 650);
-		Debug.Log("randomizing stats, " + item1.primaryStat1 + "agility");
+		
+		anvil.Play();
 
 		//Destroy(gameObject);	// Destroy item from scene
 	}

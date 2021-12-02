@@ -50,10 +50,13 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	public int forgeStat2;
 	public string forgeType1;
 	public string forgeType2;
-	public Toggle selection;
-	private Text selectionText;
 	private int seed;
 	private int statSwitch;
+
+	[SerializeField] AudioSource reforgeSet;
+	[SerializeField] AudioSource reforgeDone;
+	[SerializeField] AudioSource closeReforge;
+	[SerializeField] AudioSource explode;
 
 
 	public Image highlightedSlot;
@@ -255,6 +258,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
 	public void CancelReforge()
     {
+		closeReforge.Play();
 		cancelReforge.interactable = false;
 		reforgeSlot.sprite = null;
 		reforgeSlot.enabled = false;
@@ -264,7 +268,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	public void ReforgeItem()
     {
 		//item = reforgeItem;
-
+		reforgeSet.Play();
 		reforgeSlot.sprite = item.icon;
 		reforgeSlot.enabled = true;
 		icon.enabled = true;
@@ -283,6 +287,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	// Clear the slot
 	public void ClearSlot ()
 	{
+		
 		item = null;
 
 		icon.sprite = null;
@@ -297,6 +302,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	// If the remove button is pressed, this function will be called.
 	public void RemoveItemFromInventory ()
 	{
+		explode.Play();
 		Inventory.instance.Remove(item);
 	}
 
@@ -324,8 +330,8 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
 	public void ConfirmReforge()
     {
-		
 
+		reforgeDone.Play();
 		if (reforgePrimary1Toggle.isOn)
 		{
 			reforgePrimary1Toggle.isOn = false;
