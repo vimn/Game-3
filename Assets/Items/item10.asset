@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem 10
+  m_Name: item10
   m_EditorClassIdentifier: 
-  name: Test Sword
-  icon: {fileID: 21300000, guid: 3c5b07b6bdf08e44ab1cdc95d483a89c, type: 3}
+  name: Azurewrath
+  icon: {fileID: 21300000, guid: 068c9cd4488132343b038a570f9a2f0e, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 453
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
-  secondaryStat1: 1
-  secondaryStat2: 4
+  damageRange: 1185 - 2675 Cold damage.
+  lowDamageEnd: 1185
+  highDamageEnd: 2675
+  damageType: Cold
+  primaryStat1: 552
+  primaryStat2: 16
+  primaryStat3: 8
+  primaryStat4: 5
+  secondaryStat1: 3
+  secondaryStat2: 3
+  primaryStatType1: ' Intelligence'
+  primaryStatType2: 
+  primaryStatType3: ' % Life Steal on Hit'
+  primaryStatType4: '% chance to confuse on hit'
+  secondaryStatType1: '% extra exp on kill'
+  secondaryStatType2: ' Cold Resistance'

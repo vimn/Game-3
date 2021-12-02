@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem 4
+  m_Name: item4
   m_EditorClassIdentifier: 
-  name: Test Sword
-  icon: {fileID: 21300000, guid: 3c5b07b6bdf08e44ab1cdc95d483a89c, type: 3}
+  name: Flying Dragon
+  icon: {fileID: 21300000, guid: c88aa2cfd38f92a4aaf237463d228f6f, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 453
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
+  damageRange: 1155 - 3178 Physical damage.
+  lowDamageEnd: 1155
+  highDamageEnd: 3178
+  damageType: Physical
+  primaryStat1: 524
+  primaryStat2: 2
+  primaryStat3: 1394
+  primaryStat4: 13
   secondaryStat1: 1
-  secondaryStat2: 4
+  secondaryStat2: 32
+  primaryStatType1: ' Intelligence'
+  primaryStatType2: ' Strength'
+  primaryStatType3: ' Life on Hit'
+  primaryStatType4: '% chance to poison on hit'
+  secondaryStatType1: '% extra exp on kill'
+  secondaryStatType2: ' Physical Resistance'

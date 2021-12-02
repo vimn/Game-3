@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem 2
+  m_Name: item2
   m_EditorClassIdentifier: 
-  name: Test Sword
-  icon: {fileID: 21300000, guid: 3c5b07b6bdf08e44ab1cdc95d483a89c, type: 3}
+  name: War of the Dead
+  icon: {fileID: 21300000, guid: c3055b546287fb448b73b53bcd9ac303, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 453
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
-  secondaryStat1: 1
-  secondaryStat2: 4
+  damageRange: 1327 - 2614 Lightning damage.
+  lowDamageEnd: 1327
+  highDamageEnd: 2614
+  damageType: Lightning
+  primaryStat1: 608
+  primaryStat2: 144
+  primaryStat3: 235
+  primaryStat4: 5
+  secondaryStat1: 35
+  secondaryStat2: 94
+  primaryStatType1: ' Intelligence'
+  primaryStatType2: ' Resist All'
+  primaryStatType3: ' Life Regeneration'
+  primaryStatType4: '% chance to confuse on hit'
+  secondaryStatType1: '% extra gold on kill'
+  secondaryStatType2: ' Fire Resistance'

@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem 7
+  m_Name: item7
   m_EditorClassIdentifier: 
-  name: Test Sword
-  icon: {fileID: 21300000, guid: 3c5b07b6bdf08e44ab1cdc95d483a89c, type: 3}
+  name: Darklight
+  icon: {fileID: 21300000, guid: 0eeed684982e16e4fafe737590c124d9, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 453
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
-  secondaryStat1: 1
-  secondaryStat2: 4
+  damageRange: 1487 - 3363 Fire damage.
+  lowDamageEnd: 1487
+  highDamageEnd: 3363
+  damageType: Fire
+  primaryStat1: 661
+  primaryStat2: 11
+  primaryStat3: 166
+  primaryStat4: 9
+  secondaryStat1: 4
+  secondaryStat2: 34
+  primaryStatType1: ' Strength'
+  primaryStatType2: ' % Life'
+  primaryStatType3: ' Life Regeneration'
+  primaryStatType4: '% chance to poison on hit'
+  secondaryStatType1: '% extra exp on kill'
+  secondaryStatType2: ' Lightning Resistance'

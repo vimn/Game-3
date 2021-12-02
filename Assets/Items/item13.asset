@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem 13
+  m_Name: item13
   m_EditorClassIdentifier: 
-  name: Test Sword
-  icon: {fileID: 21300000, guid: 3c5b07b6bdf08e44ab1cdc95d483a89c, type: 3}
+  name: All-Black
+  icon: {fileID: 21300000, guid: 386a3c71da58e7b41b4157cd95b50e8b, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 453
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
-  secondaryStat1: 1
-  secondaryStat2: 4
+  damageRange: 1517 - 3383 Cold damage.
+  lowDamageEnd: 1517
+  highDamageEnd: 3383
+  damageType: Cold
+  primaryStat1: 609
+  primaryStat2: 21
+  primaryStat3: 589
+  primaryStat4: 12
+  secondaryStat1: 3
+  secondaryStat2: 109
+  primaryStatType1: ' Strength'
+  primaryStatType2: ' Resist All'
+  primaryStatType3: ' Life on Hit'
+  primaryStatType4: '% chance to poison on hit'
+  secondaryStatType1: '% extra exp on kill'
+  secondaryStatType2: ' Poison Resistance'

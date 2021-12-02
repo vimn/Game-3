@@ -8,7 +8,7 @@ public class ItemStats : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        Debug.Log("Item made chief");
+       // Debug.Log("Item made chief");
        //item.ReforgeItem
     }
 

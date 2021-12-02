@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem 12
+  m_Name: item12
   m_EditorClassIdentifier: 
-  name: Test Sword
-  icon: {fileID: 21300000, guid: 3c5b07b6bdf08e44ab1cdc95d483a89c, type: 3}
+  name: Batter Up
+  icon: {fileID: 21300000, guid: ddf40383ce9cc064ab9a63c50adb3b61, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 453
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
-  secondaryStat1: 1
-  secondaryStat2: 4
+  damageRange: 1192 - 2165 Fire damage.
+  lowDamageEnd: 1192
+  highDamageEnd: 2165
+  damageType: Fire
+  primaryStat1: 743
+  primaryStat2: 133
+  primaryStat3: 1019
+  primaryStat4: 2
+  secondaryStat1: 95
+  secondaryStat2: 21
+  primaryStatType1: ' Strength'
+  primaryStatType2: ' % Life Steal on Hit'
+  primaryStatType3: ' Life on Hit'
+  primaryStatType4: '% chance to Immobilize on hit'
+  secondaryStatType1: '% extra gold on kill'
+  secondaryStatType2: ' Fire Resistance'

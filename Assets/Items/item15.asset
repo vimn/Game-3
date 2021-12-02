@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem
+  m_Name: item15
   m_EditorClassIdentifier: 
-  name: Immortal Staff
+  name: Staff of the Woodlands
   icon: {fileID: 21300000, guid: ad42ca65182ae8141a09fd626933842f, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 523
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
-  secondaryStat1: 1
-  secondaryStat2: 4
-  primaryStatType1: 
-  primaryStatType2: 
-  primaryStatType3: 
-  primaryStatType4: 
-  secondaryStatType1: 
-  secondaryStatType2: 
+  damageRange: 1528 - 3041 Physical damage.
+  lowDamageEnd: 1528
+  highDamageEnd: 3041
+  damageType: Physical
+  primaryStat1: 691
+  primaryStat2: 403
+  primaryStat3: 230
+  primaryStat4: 7
+  secondaryStat1: 5
+  secondaryStat2: 68
+  primaryStatType1: ' Strength'
+  primaryStatType2: ' Armor'
+  primaryStatType3: ' Life Regeneration'
+  primaryStatType4: '% chance to poison on hit'
+  secondaryStatType1: '% extra exp on kill'
+  secondaryStatType2: ' Cold Resistance'

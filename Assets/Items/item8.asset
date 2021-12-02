@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de49a4f1000249149ae408617e00daee, type: 3}
-  m_Name: TestItem 8
+  m_Name: item8
   m_EditorClassIdentifier: 
-  name: Test Sword
-  icon: {fileID: 21300000, guid: 3c5b07b6bdf08e44ab1cdc95d483a89c, type: 3}
+  name: Starmetal Kukri
+  icon: {fileID: 21300000, guid: df3e0c36fa151fb4c8b1570af8532650, type: 3}
   showInInventory: 1
-  damageRange: 
-  lowDamageEnd: 0
-  highDamageEnd: 10
-  damageType: holy
-  primaryStat1: 453
-  primaryStat2: 12
-  primaryStat3: 13
-  primaryStat4: 11
-  secondaryStat1: 1
-  secondaryStat2: 4
+  damageRange: 1926 - 3477 Lightning damage.
+  lowDamageEnd: 1926
+  highDamageEnd: 3477
+  damageType: Lightning
+  primaryStat1: 574
+  primaryStat2: 364
+  primaryStat3: 10
+  primaryStat4: 9
+  secondaryStat1: 63
+  secondaryStat2: 10
+  primaryStatType1: ' Strength'
+  primaryStatType2: ' Armor'
+  primaryStatType3: ' % Life Steal on Hit'
+  primaryStatType4: '% chance to poison on hit'
+  secondaryStatType1: '% extra gold on kill'
+  secondaryStatType2: ' Poison Resistance'
